@@ -1,0 +1,329 @@
+h1{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+body{
+  font-family: "Montserrat-Regular";
+}
+
+h3{
+  font-family: "Montserrat-Bold";
+}
+
+p{
+  color: grey;
+}
+
+h2{
+  font-family: "Montserrat-Regular";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+em{
+  font-size: 1.3rem;
+}
+
+#title{
+  background-color: #0b97f8;
+  color: #fff;
+  padding-bottom: 5%;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.logo-main{
+  display: block;
+  position: relative;
+  top: 1rem;
+}
+
+.logo-reserve{
+  display: none;
+}
+
+/* Navigation Bar */
+
+.container-fluid{
+  padding: 0;
+}
+
+.flex{
+  position: relative;
+  display: flex;
+}
+
+.img-intro{
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.navbar{
+  padding: 0 4.5rem 4.5rem;
+}
+
+.nav-main{
+  float: right;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+   font-size: 1.2rem;
+   font-family: "Montserrat-Regular";
+   font-weight: 300;
+}
+
+/* Form */
+.forma{
+  text-align: left;
+  width: 90%;
+}
+/* Title */
+
+.row-v{
+  display: flex;
+  width: 90%;
+  margin-bottom: 10%;
+  margin: auto;
+  text-align: center;
+}
+
+.chudo-nums{
+  color: #fff;
+}
+
+.best{
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.title-image{
+  position: relative;
+  width: 100%;
+  right: 1%;
+}
+
+/* Features Section */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #00d8d2;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #0b97f8;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #00d8d2;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #00d8d2;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* Call to action */
+
+#cta{
+  padding: 5% 0;
+  width: 100%;
+  text-align: center;
+}
+
+.row-v-2{
+  background-color: #0b97f8;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+}
+
+.call_to_action{
+  margin-bottom: 5%;
+  color: #fff;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.app-img{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.phone-img{
+  width: 80%;
+  padding: 0 10%;
+}
+
+/* Download Buttons */
+.download-button{
+  width: 94%;
+  margin: 0 3% 3%;
+}
+
+/* Footer */
+
+.final{
+  display: block;
+}
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+
+.col-title{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.grand_final{
+  display: flex;
+  padding: 3% 0;
+}
+
+.contacts{
+  width: 38%;
+  text-align: center;
+  padding: 0 1%;
+}
+
+.map{
+  text-align: center;
+  width: 60%;
+  border: 2px;
+}
+
+.icon-f{
+  margin: 1% 1%;
+}
+
+/* Adaptation */
+
+@media (max-width: 980px){
+
+  #title{
+    text-align: center;
+  }
+
+  .row-v{
+    display: block;
+  }
+
+  .row-v-2{
+    flex-direction: column;
+  }
+
+  .buttons{
+    flex-direction: column;
+    margin: 0 auto 5%;
+  }
+
+  .app-img{
+    width: 100%;
+  }
+
+  .download-button{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px){
+  h2{
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 700px){
+
+  .logo-main{
+    display: none;
+  }
+
+  .logo-reserve{
+    display: block;
+    position: relative;
+    top: 1rem;
+  }
+
+  .grand_final{
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .contacts{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .col-title{
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  .map{
+    width: 100%;
+
+  }
+}
