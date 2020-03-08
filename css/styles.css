@@ -296,6 +296,10 @@ em{
 }
 
 @media (max-width: 700px){
+  
+  .title-image{
+  display: none;
+}
 
   .logo-main{
     display: none;
