@@ -12,6 +12,11 @@ h3{
   font-family: "montserratregular";
 }
 
+.phonenum {
+  color: #fff;
+  font-size: 2rem;
+}
+
 a {
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
