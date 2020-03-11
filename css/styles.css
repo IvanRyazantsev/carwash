@@ -23,7 +23,7 @@ p{
 
 h2{
   font-family: "montserratregular";
-  color: #fff;
+  color: #fff !important;
   font-size: 2rem;
   line-height: 1.5;
 }
